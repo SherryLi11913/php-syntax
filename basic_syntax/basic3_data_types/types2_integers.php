@@ -32,31 +32,31 @@
             echo "<h1>Integer Conversion</h1>";
 
             // Converting to integer from booleans
-            echo "FALSE: ";
+            echo "Boolean FALSE: ";
             echo "" . var_dump((int) FALSE) . "<br/>";
-            echo "TRUE: ";
+            echo "Boolean TRUE: ";
             echo "" . var_dump((int) TRUE) . "<br/>";
 
             // Converting to integer from floating point numbers
-            echo "-20.3: ";
+            echo "Float -20.3: ";
             echo "" . var_dump((int) -20.3) . "<br/>";
-            echo "3.5: ";
+            echo "Float 3.5: ";
             echo "" . var_dump((int) 3.5) . "<br/>";
-            echo "9.78: ";
+            echo "Float 9.78: ";
             echo "" . var_dump((int) 9.78) . "<br/>";
 
             // Converting to integer from strings
-            echo "'2.939': ";
+            echo "String '2.939': ";
             echo "" . var_dump((int) "2.939") . "<br/>";
-            echo "'-45': ";
+            echo "String '-45': ";
             echo "" . var_dump((int) "-45") . "<br/>";
-            echo "'   29': ";
+            echo "String '   29': ";
             echo "" . var_dump((int) "   29") . "<br/>";
-            echo "'93hello': ";
+            echo "String '93hello': ";
             echo "" . var_dump((int) "93hello") . "<br/>";
-            echo "'hello3world': ";
+            echo "String 'hello3world': ";
             echo "" . var_dump((int) "hello3world") . "<br/>";
-            echo "'hello world': ";
+            echo "String 'hello world': ";
             echo "" . var_dump((int) "hello world") . "<br/>";
 
             // Converting to integer from NULL
