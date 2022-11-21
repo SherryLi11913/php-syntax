@@ -33,35 +33,47 @@
 
             // Converting to integer from booleans
             echo "Boolean FALSE: ";
-            echo "" . var_dump((int) FALSE) . "<br/>";
+            var_dump((int) FALSE);
+            echo "<br/>";
             echo "Boolean TRUE: ";
-            echo "" . var_dump((int) TRUE) . "<br/>";
+            var_dump((int) TRUE);
+            echo "<br/>";
 
             // Converting to integer from floating point numbers
             echo "Float -20.3: ";
-            echo "" . var_dump((int) -20.3) . "<br/>";
+            var_dump((int) -20.3);
+            echo "<br/>";
             echo "Float 3.5: ";
-            echo "" . var_dump((int) 3.5) . "<br/>";
+            var_dump((int) 3.5);
+            echo "<br/>";
             echo "Float 9.78: ";
-            echo "" . var_dump((int) 9.78) . "<br/>";
+            var_dump((int) 9.78);
+            echo "<br/>";
 
             // Converting to integer from strings
             echo "String '2.939': ";
-            echo "" . var_dump((int) "2.939") . "<br/>";
+            var_dump((int) "2.939");
+            echo "<br/>";
             echo "String '-45': ";
-            echo "" . var_dump((int) "-45") . "<br/>";
+            var_dump((int) "-45");
+            echo "<br/>";
             echo "String '   29': ";
-            echo "" . var_dump((int) "   29") . "<br/>";
+            var_dump((int) "   29");
+            echo "<br/>";
             echo "String '93hello': ";
-            echo "" . var_dump((int) "93hello") . "<br/>";
+            var_dump((int) "93hello");
+            echo "<br/>";
             echo "String 'hello3world': ";
-            echo "" . var_dump((int) "hello3world") . "<br/>";
+            var_dump((int) "hello3world");
+            echo "<br/>";
             echo "String 'hello world': ";
-            echo "" . var_dump((int) "hello world") . "<br/>";
+            var_dump((int) "hello world");
+            echo "<br/>";
 
             // Converting to integer from NULL
             echo "NULL: ";
-            echo "" . var_dump((int) null) . "<br/>";
+            var_dump((int) null);
+            echo "<br/>";
         ?>
     </body>
 </html>

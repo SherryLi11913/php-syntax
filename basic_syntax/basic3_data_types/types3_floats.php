@@ -20,16 +20,20 @@
             echo "<h1>Floating Point Number Conversion</h1>";
 
             echo "String '3.421e14': ";
-            echo "" .var_dump((float) "3.421e14") . "<br/>";
+            var_dump((float) "3.421e14");
+            echo "<br/>";
 
             echo "String '-5.12': ";
-            echo "" .var_dump((float) "-5.12") . "<br/>";
+            var_dump((float) "-5.12");
+            echo "<br/>";
 
             echo "String '   .21': ";
-            echo "" .var_dump((float) "   .21") . "<br/>";
+            var_dump((float) "   .21");
+            echo "<br/>";
 
             echo "String 'e123.23': ";
-            echo "" .var_dump((float) "e123.23") . "<br/>";
+            var_dump((float) "e123.23");
+            echo "<br/>";
         ?>
     </body>
 </html>

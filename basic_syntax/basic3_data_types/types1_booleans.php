@@ -7,28 +7,36 @@
 
             $bool_false = FALSE;
             echo "FALSE: ";
-            echo "" . var_dump($bool_false) . "<br/>"; // FALSE value
+            var_dump($bool_false); // FALSE value
+            echo "<br/>";
 
             echo "Empty string: ";
-            echo "" . var_dump((bool) "") . "<br/>"; // Empty string
+            var_dump((bool) ""); // Empty string
+            echo "<br/>";
 
             echo "String '0': ";
-            echo "" . var_dump((bool) "0") . "<br/>"; // String "0"
+            var_dump((bool) "0"); // String "0"
+            echo "<br/>";
 
             echo "Float 0.0: ";
-            echo "" . var_dump((bool) 0.0) . "<br/>"; // Float 0.0
+            var_dump((bool) 0.0); // Float 0.0
+            echo "<br/>";
 
             echo "Float -0.0: ";
-            echo "" . var_dump((bool) -0.0) . "<br/>"; // Float -0.0
+            var_dump((bool) -0.0); // Float -0.0
+            echo "<br/>";
 
             echo "Integer 0: ";
-            echo "" . var_dump((bool) 0) . "<br/>"; // Integer 0
+            var_dump((bool) 0); // Integer 0
+            echo "<br/>";
 
             echo "Empty array: ";
-            echo "" . var_dump((bool) array()) . "<br/>"; // Empty array
+            var_dump((bool) array()); // Empty array
+            echo "<br/>";
 
             echo "NULL: ";
-            echo "" . var_dump((bool) NULL) . "<br/>"; // NULL
+            var_dump((bool) NULL); // NULL
+            echo "<br/>";
 
             echo "<hr/>";
 
@@ -37,13 +45,16 @@
 
             $bool_true = TRUE;
             echo "TRUE: ";
-            echo "" . var_dump($bool_true) . "<br/>"; // TRUE value
+            var_dump($bool_true); // TRUE value
+            echo "<br/>";
 
             echo "String 'false': ";
-            echo "" . var_dump((bool) 'false') . "<br/>"; // String 'false'
+            var_dump((bool) 'false'); // String 'false'
+            echo "<br/>";
 
             echo "Integer -1: ";
-            echo "" . var_dump((bool) -1) . "<br/>"; // Integer -1
+            var_dump((bool) -1); // Integer -1
+            echo "<br/>";
         ?>
     </body>
 </html>
