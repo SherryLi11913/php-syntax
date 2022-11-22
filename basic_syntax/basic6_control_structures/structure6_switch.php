@@ -6,7 +6,7 @@
             echo "<h1><code>switch</code></h1>";
 
             switch (0) {
-                case 0:
+                case "0":
                     echo "Zero";
                     break;
                 case 1:
