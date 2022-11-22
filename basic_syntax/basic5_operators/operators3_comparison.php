@@ -169,6 +169,34 @@
 
             var_dump(1 <=> -1323);
             echo "<br/>";
+
+            echo "<hr/>";
+
+            /* Comparison Operator - Ternary Operator ?: */
+            echo "<h1>Comparison Operator - Ternary Operator <code>?:</code></h1>";
+
+            echo 10 == 10.0 ? "10 == 10" : "10 != 10";
+            echo "<br/>";
+
+            echo 10 === 10.0 ? "10 === 10.0" : "10 !== 10.0";
+            echo "<br/>";
+
+            echo "<hr/>";
+
+            /* Comparison Operator - Null Coalescing Operator ?? */
+            echo "<h1>Comparison Operator - Null Coalescing Operator <code>??</code></h1>";
+
+            var_dump(10 ?? null);
+            echo "<br/>";
+
+            var_dump(null ?? 10);
+            echo "<br/>";
+
+            var_dump(FALSE ?? null);
+            echo "<br/>";
+
+            var_dump(null ?? FALSE);
+            echo "<br/>";
         ?>
     </body>
 </html>
