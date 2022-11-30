@@ -1,2 +1,2 @@
-This will be the first line
-This is the 2nd line
+This is a file
+This is the second line

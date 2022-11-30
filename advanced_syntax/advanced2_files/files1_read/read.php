@@ -3,7 +3,7 @@
     <body>
         <?php
             /* readfile() */
-            echo "<h1><code>readfile()</code></h1>";
+            echo "<h1>Read File <code>readfile()</code></h1>";
 
             echo readfile("file.txt");
             echo "<br/>";
