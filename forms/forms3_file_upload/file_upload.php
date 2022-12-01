@@ -47,6 +47,7 @@
                 if (isset($error)) {
                     echo "<h1>File upload failed. $error</h1>";
                 } else {
+                    // Upload file to target location
                     if (move_uploaded_file($_FILES["image"]["tmp_name"], $target_file)) {
                         echo "<h1>File upload succeeded!</h1>";
                         echo '<img src="' . $target_file . '" width="300" height="300"/>';
