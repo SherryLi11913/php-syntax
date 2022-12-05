@@ -13,6 +13,8 @@
             var_dump(json_encode(['Hello', 'Hi', 'Hey']));
             echo "<br/>";
 
+            echo "<hr/>";
+
             /* Decode a JSON object into a PHP object or an associative array, json_decode() */
             echo "<h1>Decode a JSON object into a PHP object or an associative array, <code>json_decode()</code></h1>";
 
